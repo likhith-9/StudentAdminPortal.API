@@ -20,5 +20,7 @@ namespace StudentAdminPortal.API.Repositories
 
         Task<Student> Deletestudent(Guid studentId);
 
+        Task<Student> AddStudent(Student request);
+
     }
 }
